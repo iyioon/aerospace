@@ -5,7 +5,7 @@ My personal **AeroSpace** (macOS tiling window manager) configuration.
 ## 📦 What is AeroSpace
 
 AeroSpace is an **i3-like tiling window manager for macOS**.
-[oai_citation:1‡nikitabobko.github.io](https://nikitabobko.github.io/AeroSpace/guide?utm_source=chatgpt.com)
+[Documentation](https://nikitabobko.github.io/AeroSpace/guide?utm_source=chatgpt.com)
 
 ---
 
