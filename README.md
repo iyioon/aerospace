@@ -23,7 +23,3 @@ Clone the configuration to `~/.config/aerospace`:
 git clone https://github.com/iyioon/aerospace.git "${XDG_CONFIG_HOME:-$HOME/.config}"/aerospace
 
 ```
-
-## With [SketchyBar](https://github.com/FelixKratz/SketchyBar)
-
-The AeroSpace configuration is setup to work with my SketchyBar configruation. Refer to this [config](https://github.com/iyioon/sketchybar).
