@@ -9,12 +9,12 @@
 after-startup-command = ['exec-and-forget sketchybar']
 
 # Notify Sketchybar about workspace change
-exec-on-workspace-change = ['/bin/bash', '-c',
-    'sketchybar --trigger aerospace_workspace_change FOCUSED_WORKSPACE=$AEROSPACE_FOCUSED_WORKSPACE'
-]
+# exec-on-workspace-change = ['/bin/bash', '-c',
+#     'sketchybar --trigger aerospace_workspace_change FOCUSED_WORKSPACE=$AEROSPACE_FOCUSED_WORKSPACE'
+# ]
 
 # Start AeroSpace at login
-start-at-login = false
+start-at-login = true 
 
 # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide#normalization
 enable-normalization-flatten-containers = true
@@ -61,9 +61,9 @@ automatically-unhide-macos-hidden-apps = false
 [gaps]
     inner.horizontal = 10
     inner.vertical   = 10
-    outer.left       = 80
+    outer.left       = 10
     outer.bottom     = 10
-    outer.top        = 10
+    outer.top        = 0
     outer.right      = 10
 
 # 'main' binding mode declaration
@@ -225,12 +225,12 @@ automatically-unhide-macos-hidden-apps = false
 if.app-id = "com.TickTick.task.mac"
 run = "layout floating"
 
-[[on-window-detected]]
-if.app-id = "com.openai.chat"
-run = "layout floating"
+# [[on-window-detected]]
+# if.app-id = "com.openai.chat"
+# run = "layout floating"
 
 
-[[on-window-detected]]
-if.app-id = "com.apple.finder"
-run = "layout floating"
+# [[on-window-detected]]
+# if.app-id = "com.apple.finder"
+# run = "layout floating"
 
