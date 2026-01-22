@@ -216,6 +216,11 @@ automatically-unhide-macos-hidden-apps = false
 if.app-id = "com.TickTick.task.mac"
 run = "layout floating"
 
+
+[[on-window-detected]]
+if.app-id = "com.kakao.KakaoTalkMac"
+run = "layout floating"
+
 # [[on-window-detected]]
 # if.app-id = "com.openai.chat"
 # run = "layout floating"
